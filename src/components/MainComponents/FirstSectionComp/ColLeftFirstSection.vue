@@ -43,10 +43,6 @@ export default {
 <style lang="scss" scoped>
 .col-left {
   max-width: 46.875rem;
-  h6 {
-    color: #21aaac;
-    margin-bottom: 1.875rem;
-  }
   h2 span {
     color: #058283;
     padding: 0.5rem 1rem;

@@ -23,4 +23,8 @@ export default {
 .container {
   max-width: 71.875rem;
 }
+section h6 {
+  color: #21aaac;
+  margin-bottom: 1.875rem;
+}
 </style>
