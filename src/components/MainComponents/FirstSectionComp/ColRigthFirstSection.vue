@@ -2,7 +2,7 @@
   <div class="col-right">
     <h4 class="fw-bold mb-5">Vehicle Types</h4>
     <div class="vehicle-types">
-      <div class="d-flex truck align-items-center pb-2">
+      <div class="d-flex truck align-items-center pb-3">
         <div class="truck-img">
           <img src="../../../assets/truck-1.png" alt="Truck image" />
         </div>
@@ -11,7 +11,7 @@
           <span>Max Weight 1200 Kg</span>
         </div>
       </div>
-      <div class="d-flex truck align-items-center py-2">
+      <div class="d-flex truck align-items-center py-3">
         <div class="truck-img">
           <img src="../../../assets/truck-1.png" alt="Truck image" />
         </div>
@@ -20,7 +20,7 @@
           <span>Max Weight 6000 Kg</span>
         </div>
       </div>
-      <div class="d-flex truck align-items-center pt-2">
+      <div class="d-flex truck align-items-center pt-3">
         <div class="truck-img">
           <img src="../../../assets/truck-1.png" alt="Truck image" />
         </div>
@@ -45,17 +45,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.truck:not(:last-child) {
-  border-bottom: 0.1875rem solid #bfbfbf;
-}
-.truck-img {
-  background-color: #daeced;
+.vehicle-types {
   margin-bottom: 3.75rem;
-  img {
-    width: 5rem;
-    padding: 0.3125rem;
+  .truck {
+    &:not(:last-child) {
+      border-bottom: 0.1875rem solid #bfbfbf;
+    }
+    .truck-img {
+      background-color: #daeced;
+      img {
+        width: 6.25rem;
+        padding: 0.3125rem;
+      }
+    }
   }
 }
+
 .certifications img {
   max-width: 8.75rem;
 }
