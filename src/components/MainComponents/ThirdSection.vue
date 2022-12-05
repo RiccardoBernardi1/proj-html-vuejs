@@ -25,6 +25,7 @@ export default {
 <style lang="scss" scoped>
 section {
   padding: 8.125rem 9.375rem;
+  overflow: hidden;
   h2 span {
     color: #058283;
     padding: 0.5rem 1rem;
