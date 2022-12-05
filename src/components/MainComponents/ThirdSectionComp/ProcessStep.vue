@@ -20,8 +20,8 @@ export default {
 .process-step {
   max-width: 14.375rem;
   .number {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3.125rem;
+    height: 3.125rem;
     color: #05848a;
     background-color: #daeced;
     position: relative;

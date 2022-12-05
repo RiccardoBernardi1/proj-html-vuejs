@@ -36,11 +36,16 @@ form {
     width: 49%;
     border-radius: 0.3125rem;
     outline: none;
+    border: none;
   }
   textarea {
     max-height: 9.375rem;
     overflow-y: auto;
     outline: none;
+    border-radius: 0.3125rem;
+    background-color: #ececec;
+    border: none;
+    min-height: 1.5625rem;
   }
   button {
     background-color: #058283;
