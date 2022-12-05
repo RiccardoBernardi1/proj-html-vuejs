@@ -1,7 +1,11 @@
 <template>
   <div class="second-section-top container">
-    <h6 class="fw-bold">ROAD TRANSPORT</h6>
-    <h2 class="fw-bold">Main <span>Services</span></h2>
+    <WhiteTitle
+      h6Text="ROAD TRANSPORT"
+      backgroundText="Services"
+      normalText="Main"
+      backgroundFirst="false"
+    />
     <div class="d-flex justify-content-between align-items-center">
       <p>
         With all of this expertise and capabilities comes an unrivalled
@@ -14,8 +18,12 @@
 </template>
 
 <script>
+import WhiteTitle from "../../WhiteTitle.vue";
 export default {
   name: "SecondSectionTop",
+  components: {
+    WhiteTitle,
+  },
 };
 </script>
 

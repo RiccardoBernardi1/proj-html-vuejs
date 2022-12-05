@@ -1,8 +1,12 @@
 <template>
   <section>
     <div class="container text-center">
-      <h6 class="fw-bold">WHAT ARE WE DOING</h6>
-      <h2 class="fw-bold"><span>Results</span> in Numbers</h2>
+      <WhiteTitle
+        h6Text="WHAT ARE WE DOING"
+        backgroundText="Results"
+        normalText="in Numbers"
+        backgroundFirst="first"
+      />
       <div class="results d-flex">
         <ResultCard v-for="n in 4" />
       </div>
@@ -11,10 +15,12 @@
 </template>
 
 <script>
-import ResultCard from "../FourthSectionComp/ResultCard.vue";
+import WhiteTitle from "../WhiteTitle.vue";
+import ResultCard from "./FourthSectionComp/ResultCard.vue";
 export default {
   name: "FourthSection",
   components: {
+    WhiteTitle,
     ResultCard,
   },
 };
@@ -26,7 +32,8 @@ section {
   background-position: center;
   padding: 8.125rem 0 9.375rem;
   color: white;
-  h2 {
+
+  .white-title {
     margin-bottom: 7.5rem;
   }
   .results {
