@@ -20,4 +20,7 @@ export default {
 
 <style lang="scss">
 @import "./style/global.scss";
+.container {
+  max-width: 71.875rem;
+}
 </style>
