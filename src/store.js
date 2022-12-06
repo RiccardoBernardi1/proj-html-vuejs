@@ -15,4 +15,9 @@ export const store = reactive({
       text: "hello@example.com",
     },
   ],
+  messages: {
+    more: [],
+    report: [],
+    help: [],
+  },
 });

@@ -28,34 +28,108 @@ export default {
         {
           title: "About",
           list: [
-            "The Company",
-            "Institutional",
-            "Socuial & Events",
-            "Innovation",
-            "Enviromnent",
-            "Tecnology",
+            {
+              title: "The Company",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
+            {
+              title: "Institutional",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
+            {
+              title: "Socuial & Events",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
+            {
+              title: "Innovation",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
+            {
+              title: "Enviromnent",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
+            {
+              title: "Tecnology",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
           ],
         },
         {
           title: "Transport",
           list: [
-            "Industrialized",
-            "Chemicals",
-            "Packaged Liquids",
-            "Construction",
-            "Laminated Woods",
-            "And Others",
+            {
+              title: "Industrialized",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
+            {
+              title: "Chemicals",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
+            {
+              title: "Packaged Liquids",
+
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
+            {
+              title: "Construction",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
+            {
+              title: "Laminated Woods",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
+            {
+              title: "And Others",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
           ],
         },
         {
           title: "Support",
           list: [
-            "Responsibility",
-            "Terms of Use",
-            "About Cookies",
-            "Privacy Policy",
-            "Accessibility",
-            "Information",
+            {
+              title: "Responsibility",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
+            {
+              title: "Terms of Use",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
+            {
+              title: "About Cookies",
+
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
+            {
+              title: "Privacy Policy",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
+            {
+              title: "Accessibility",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
+            {
+              title: "Information",
+              onClickText:
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
+            },
           ],
         },
       ],

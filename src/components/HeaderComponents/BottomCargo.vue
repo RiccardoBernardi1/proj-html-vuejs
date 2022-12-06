@@ -6,12 +6,8 @@
       Fractional or exclusive road cargo transportation to all regions, with
       small, medium and large vehicles.
     </p>
-    <a href="#get-in-touch" class="fw-bold get-in-touch px-3 py-2 me-4 rounded"
-      >GET IN TOUCH</a
-    >
-    <a href="#transport" class="fw-bold read-more px-3 py-2 rounded"
-      >READ MORE</a
-    >
+    <a href="#get-in-touch" class="fw-bold btn me-4 rounded">GET IN TOUCH</a>
+    <a href="#transport" class="fw-bold read-more rounded">READ MORE</a>
   </div>
 </template>
 
@@ -40,12 +36,14 @@ export default {
   a {
     text-decoration: none;
     color: white;
-    &.get-in-touch {
+    &.btn {
       background-color: #058283;
       border: 0.125rem solid #058283;
+      padding: 0.625rem 1.5625rem 0.9375rem;
     }
     &.read-more {
       border: 0.125rem solid #058283;
+      padding: 0.625rem 1.5625rem 0.9375rem;
     }
   }
 }

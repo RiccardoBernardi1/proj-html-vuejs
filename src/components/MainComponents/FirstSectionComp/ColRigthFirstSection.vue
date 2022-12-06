@@ -2,7 +2,7 @@
   <div class="col-right">
     <h4 class="fw-bold mb-5">Vehicle Types</h4>
     <div class="vehicle-types">
-      <div class="d-flex truck align-items-center pb-3" v-for="truck in trucks">
+      <div class="d-flex truck align-items-center py-3" v-for="truck in trucks">
         <div class="truck-img">
           <img :src="truck.img" alt="Truck image" />
         </div>

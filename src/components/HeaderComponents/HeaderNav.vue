@@ -62,11 +62,16 @@ img {
 a {
   text-decoration: none;
   color: white;
+  transition: scale 0.3s;
   &.btn {
     order: 3;
     background-color: #058283;
     border: 0.125rem solid #058283;
-    padding: 0.9375rem 1.5625rem;
+    padding: 0.625rem 1.5625rem 0.9375rem;
+  }
+  &:hover {
+    color: white;
+    scale: 1.2;
   }
 }
 </style>

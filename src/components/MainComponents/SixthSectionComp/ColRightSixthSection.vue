@@ -14,8 +14,20 @@
       ></div>
       <span>{{ obj.text }}</span>
     </div>
-
-    <a href="#" class="fw-bold read-more px-3 py-2 rounded">VIEW MAP</a>
+    <a
+      href="#"
+      class="fw-bold read-more px-3 py-2 rounded"
+      @click.prevent="$emit('show'), (clicked = !clicked)"
+      v-if="clicked === false"
+      >VIEW MAP</a
+    >
+    <a
+      href="#"
+      class="fw-bold read-more px-3 py-2 rounded"
+      @click.prevent="$emit('show'), (clicked = !clicked)"
+      v-else
+      >HIDE MAP</a
+    >
   </div>
 </template>
 
@@ -26,6 +38,7 @@ export default {
   data() {
     return {
       store,
+      clicked: false,
       info: [
         {
           icon: store.info[1].icon,

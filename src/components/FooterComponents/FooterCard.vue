@@ -7,11 +7,9 @@
           class="fa-solid fa-chevron-right me-2"
           :id="`${info.title}${i + 100}`"
         ></i>
-        <span :id="`${info.title}${i + 300}`">{{ li }}</span>
+        <span :id="`${info.title}${i + 300}`">{{ li.title }}</span>
         <div class="ms-d-none mt-1 py-1" :id="`${info.title}${i}`">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
-          porro aliquam itaque velit magnam quidem similique sed amet eius
-          deleniti
+          {{ li.onClickText }}
         </div>
       </li>
     </ul>
