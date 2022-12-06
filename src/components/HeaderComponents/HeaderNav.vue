@@ -4,11 +4,9 @@
   >
     <img src="../../assets/logo.svg" alt="" />
     <nav>
-      <a href="#" class="me-5 fw-bold">HOME</a>
-      <a href="#" class="me-5 fw-bold">ABOUT</a>
-      <a href="#" class="me-5 fw-bold">SERVICES</a>
-      <a href="#" class="me-5 fw-bold">PROCESS</a>
-      <a href="#" class="me-5 fw-bold">TESTIMONIALS</a>
+      <a class="me-5 fw-bold" v-for="(link, index) in links" href="#">{{
+        link
+      }}</a>
       <a href="#" class="me-5 fw-bold"><i class="fa-regular fa-user"></i></a>
       <a href="#" class="fw-bold get-in-touch px-3 py-2 rounded"
         >GET IN TOUCH</a
@@ -20,6 +18,11 @@
 <script>
 export default {
   name: "HeaderCenter",
+  data() {
+    return {
+      links: ["HOME", "ABOUT", "SERVICES", "PROCESS", "TESTIMONIALS"],
+    };
+  },
 };
 </script>
 
