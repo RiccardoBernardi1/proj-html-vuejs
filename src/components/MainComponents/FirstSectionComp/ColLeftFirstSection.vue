@@ -25,11 +25,7 @@
       rem recusandae cumque deleniti
     </p>
     <ul>
-      <li>Lorem ipsum dolor sit amet</li>
-      <li>Consectetur adipisicing elit</li>
-      <li>Sint sed natus rem recusandae</li>
-      <li>Delectus mollitia hic eaque</li>
-      <li>Magnam alias quo non beatae</li>
+      <li v-for="lorem in loremList">{{ lorem }}</li>
     </ul>
   </div>
 </template>
@@ -37,6 +33,17 @@
 <script>
 export default {
   name: "ColLeftFirstSection",
+  data() {
+    return {
+      loremList: [
+        "Lorem ipsum dolor sit amet",
+        "Consectetur adipisicing elit",
+        "Sint sed natus rem recusandae",
+        "Delectus mollitia hic eaque",
+        "Magnam alias quo non beatae",
+      ],
+    };
+  },
 };
 </script>
 
