@@ -8,7 +8,7 @@
         backgroundFirst="first"
       />
       <div class="results d-flex">
-        <ResultCard v-for="n in 4" />
+        <ResultCard v-for="result in results" :info="result" />
       </div>
     </div>
   </section>
@@ -22,6 +22,28 @@ export default {
   components: {
     WhiteTitle,
     ResultCard,
+  },
+  data() {
+    return {
+      results: [
+        {
+          quantity: "128",
+          type: "Certifications",
+        },
+        {
+          quantity: "230",
+          type: "Employees",
+        },
+        {
+          quantity: "517",
+          type: "Costumers",
+        },
+        {
+          quantity: "94",
+          type: "Country Served",
+        },
+      ],
+    };
   },
 };
 </script>

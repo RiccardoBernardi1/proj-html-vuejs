@@ -1,13 +1,16 @@
 <template>
   <div class="result-card text-center">
-    <div class="num fs-2 fw-bold mb-3">120</div>
-    <h4 class="fw-bold">Certifications</h4>
+    <div class="num fs-2 fw-bold mb-3">{{ info.quantity }}</div>
+    <h4 class="fw-bold">{{ info.type }}</h4>
   </div>
 </template>
 
 <script>
 export default {
   name: "ResultCard",
+  props: {
+    info: Object,
+  },
 };
 </script>
 
