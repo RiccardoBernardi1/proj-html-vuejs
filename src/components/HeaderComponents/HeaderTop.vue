@@ -1,40 +1,25 @@
 <template>
   <div class="header-top py-3">
     <div class="container d-flex align-items-center">
-      <div v-for="obj in info" class="info">
-        <span v-html="obj.icon"></span> {{ obj.text }}
+      <div v-for="obj in store.info" class="info">
+        <span v-html="obj.icon" class="me-2"></span> {{ obj.text }}
       </div>
+      <span v-html="icon" v-for="icon in icons" class="info"></span>
     </div>
   </div>
 </template>
 
 <script>
+import { store } from "../../store.js";
 export default {
   name: "HeaderTop",
   data() {
     return {
-      info: [
-        {
-          icon: `<i class="fa-solid me-2 fa-clock"></i>`,
-          text: "Open Hours: Mon - Sat - 9:00 - 18:00",
-        },
-        {
-          icon: `<i class="fa-solid me-2 fa-phone"></i>`,
-          text: "+1(305) 1234-5678",
-        },
-        {
-          icon: `<i class="fa-solid me-2 fa-envelope"></i>`,
-          text: "hello@example.com",
-        },
-        {
-          icon: `<i class="fa-brands fa-facebook "></i>`,
-        },
-        {
-          icon: `<i class="fa-brands fa-twitter "></i>`,
-        },
-        {
-          icon: `<i class="fa-brands fa-linkedin"></i>`,
-        },
+      store,
+      icons: [
+        `<i class="fa-brands fa-facebook "></i>`,
+        `<i class="fa-brands fa-twitter "></i>`,
+        `<i class="fa-brands fa-linkedin"></i>`,
       ],
     };
   },
