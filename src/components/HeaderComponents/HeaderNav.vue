@@ -7,7 +7,7 @@
       <a class="me-5 fw-bold" v-for="(link, index) in links" href="#">{{
         link
       }}</a>
-      <a href="#" class="me-5 fw-bold"><i class="fa-regular fa-user"></i></a>
+      <a href="#" class="me-5 fw-bold" v-html="userIcon"></a>
       <a href="#" class="fw-bold get-in-touch px-3 py-2 rounded"
         >GET IN TOUCH</a
       >
@@ -21,6 +21,7 @@ export default {
   data() {
     return {
       links: ["HOME", "ABOUT", "SERVICES", "PROCESS", "TESTIMONIALS"],
+      userIcon: `<i class="fa-regular fa-user"></i>`,
     };
   },
 };
