@@ -2,7 +2,11 @@
   <section>
     <SecondSectionTop />
     <div class="section-cards d-flex justify-content-between container mt-5">
-      <SectionCard v-for="service in services" :info="service" />
+      <SectionCard
+        v-for="service in services"
+        :info="service"
+        section="services"
+      />
     </div>
   </section>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="section-card p-5 rounded-3">
+  <div class="services-card p-5 rounded-3" v-if="section === 'services'">
     <div class="d-flex justify-content-between mb-3">
       <div
         class="icon rounded-circle d-flex justify-content-center align-items-center fs-4"
@@ -10,6 +10,12 @@
     <h4 class="mb-3">{{ info.title }}</h4>
     <p>{{ info.text }}</p>
   </div>
+  <div class="feedbacks-card p-5 rounded-3" v-else-if="section === 'feedbacks'">
+    <img :src="info.logo" alt="logo" class="mb-3" />
+    <p class="mb-3">{{ info.firstText }}</p>
+    <p>{{ info.secondText }}</p>
+    <i class="fa-solid fa-quote-right fs-3"></i>
+  </div>
 </template>
 
 <script>
@@ -17,25 +23,40 @@ export default {
   name: "SectionCard",
   props: {
     info: Object,
+    section: String,
   },
 };
 </script>
 
 <style lang="scss" scoped>
-.section-card {
+.services-card,
+.feedbacks-card {
   background-color: #19191f;
   color: white;
   max-width: 21.875rem;
-}
-div.d-flex {
-  .icon {
-    color: #058283;
-    background-color: #16282e;
-    height: 3.75rem;
-    width: 3.75rem;
+  div.d-flex {
+    .icon {
+      color: #058283;
+      background-color: #16282e;
+      height: 3.75rem;
+      width: 3.75rem;
+    }
+    a {
+      color: #0f4e51;
+    }
   }
-  a {
-    color: #0f4e51;
+}
+.feedbacks-card {
+  position: relative;
+  img {
+    max-width: 8.125rem;
+    filter: invert(1);
+  }
+  i {
+    position: absolute;
+    bottom: 2.1875rem;
+    right: 1.25rem;
+    color: #47474c;
   }
 }
 </style>
