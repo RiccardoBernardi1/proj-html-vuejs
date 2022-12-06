@@ -3,23 +3,21 @@
     <div class="d-flex justify-content-between mb-3">
       <div
         class="icon rounded-circle d-flex justify-content-center align-items-center fs-4"
-      >
-        <i class="fa-solid fa-truck-ramp-box"></i>
-      </div>
+        v-html="info.icon"
+      ></div>
       <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
     </div>
-    <h4 class="mb-3">Tecnology</h4>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque numquam
-      dolores quod, quae optio libero delectus error dolorum, molestias nisi hic
-      quos quibusdam eaque fugiat
-    </p>
+    <h4 class="mb-3">{{ info.title }}</h4>
+    <p>{{ info.text }}</p>
   </div>
 </template>
 
 <script>
 export default {
   name: "SectionCard",
+  props: {
+    info: Object,
+  },
 };
 </script>
 

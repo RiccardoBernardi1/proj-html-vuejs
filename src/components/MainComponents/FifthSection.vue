@@ -13,7 +13,7 @@
         recognition.
       </p>
       <div class="feedbacks d-flex justify-content-between">
-        <SectionCard v-for="n in 3" />
+        <!-- <SectionCard v-for="n in 3" /> -->
       </div>
     </div>
   </section>
