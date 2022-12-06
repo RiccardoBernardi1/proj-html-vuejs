@@ -1,5 +1,5 @@
 <template>
-  <div class="col-right">
+  <div class="col-right ms-3">
     <h4 class="fw-bold mb-4">Example inc.</h4>
     <p class="mb-4">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
