@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="get-in-touch">
     <div class="container d-flex justify-content-between">
       <div class="col-left">
         <h6 class="fw-bold">SEND A MESSAGE</h6>

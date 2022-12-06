@@ -2,12 +2,12 @@
   <div class="footer-top">
     <div class="container d-flex justify-content-between">
       <div class="col-different">
-        <img src="../assets/logo.svg" alt="Logo NexGen" />
+        <img src="../../assets/logo.svg" alt="Logo NexGen" />
         <p class="mt-4">A Functional HTML template for Corporate & Business.</p>
         <div class="mb-3 info" v-for="obj in info">
           <span v-html="obj.icon" class="me-2"></span> {{ obj.text }}
         </div>
-        <a href="#" class="fw-bold read-more px-3 py-2 rounded mt-4"
+        <a href="#get-in-touch" class="fw-bold read-more px-3 py-2 rounded mt-4"
           >GET IN TOUCH</a
         >
       </div>

@@ -2,10 +2,10 @@
   <div class="footer-bottom p-3 text-end d-flex align-items-center">
     <div class="container d-flex justify-content-between">
       <span>Enjoy the low price. We are tracking any intention of piracy.</span>
-      <span>@2020 NEXGEN isProudlyPowered by <a href="@">Coding</a>.</span>
+      <span>@2020 NEXGEN isProudlyPowered by <a href="#">Coding</a>.</span>
     </div>
     <a
-      href="#"
+      href="#header"
       class="arrow rounded-circle d-flex justify-content-center align-items-center"
     >
       <i class="fa-solid fa-arrow-up"></i>

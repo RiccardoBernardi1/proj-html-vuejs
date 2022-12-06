@@ -6,10 +6,12 @@
       Fractional or exclusive road cargo transportation to all regions, with
       small, medium and large vehicles.
     </p>
-    <a href="#" class="fw-bold get-in-touch px-3 py-2 me-4 rounded"
+    <a href="#get-in-touch" class="fw-bold get-in-touch px-3 py-2 me-4 rounded"
       >GET IN TOUCH</a
     >
-    <a href="#" class="fw-bold read-more px-3 py-2 rounded">READ MORE</a>
+    <a href="#transport" class="fw-bold read-more px-3 py-2 rounded"
+      >READ MORE</a
+    >
   </div>
 </template>
 

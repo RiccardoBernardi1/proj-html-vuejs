@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="feedbacks">
     <div class="container">
       <WhiteTitle
         h6Text="CUSTOMER TESTIMONIALS"

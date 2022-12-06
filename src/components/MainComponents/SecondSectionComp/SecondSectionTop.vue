@@ -12,7 +12,7 @@
         commitment to costumer service. We will work hard to understand your
         needs in order to develop a productive, long-term partnership.
       </p>
-      <a href="#" class="fw-bold read-more px-3 py-2 rounded">SEE ALL</a>
+      <a href="#footer" class="fw-bold read-more px-3 py-2 rounded">SEE ALL</a>
     </div>
   </div>
 </template>

@@ -4,7 +4,12 @@
       <div v-for="obj in store.info" class="info">
         <span v-html="obj.icon" class="me-2"></span> {{ obj.text }}
       </div>
-      <span v-html="icon" v-for="icon in icons" class="info"></span>
+      <a
+        :href="icon.href"
+        v-html="icon.icon"
+        v-for="icon in icons"
+        class="info"
+      ></a>
     </div>
   </div>
 </template>
@@ -17,9 +22,18 @@ export default {
     return {
       store,
       icons: [
-        `<i class="fa-brands fa-facebook "></i>`,
-        `<i class="fa-brands fa-twitter "></i>`,
-        `<i class="fa-brands fa-linkedin"></i>`,
+        {
+          icon: `<i class="fa-brands fa-facebook "></i>`,
+          href: "https://it-it.facebook.com/login.php/",
+        },
+        {
+          icon: `<i class="fa-brands fa-twitter "></i>`,
+          href: "https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiaXQifQ%3D%3D%22%7D",
+        },
+        {
+          icon: `<i class="fa-brands fa-linkedin"></i>`,
+          href: "https://www.linkedin.com/login/it",
+        },
       ],
     };
   },
@@ -30,6 +44,9 @@ export default {
 .header-top {
   background-color: #21333e;
   color: white;
+  .info {
+    color: white;
+  }
   .info:first-child {
     margin-right: auto;
   }

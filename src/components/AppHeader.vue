@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-  <header>
+  <header id="header">
     <HeaderTop />
     <HeaderBottom />
   </header>

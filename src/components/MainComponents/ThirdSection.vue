@@ -1,5 +1,5 @@
 <template>
-  <section class="text-center">
+  <section class="text-center" id="process">
     <h6 class="fw-bold">HOW IT WORKS IN PRACTICE</h6>
     <h2 class="fw-bold mb-4"><span>Logistical</span> Procedure</h2>
     <p>
