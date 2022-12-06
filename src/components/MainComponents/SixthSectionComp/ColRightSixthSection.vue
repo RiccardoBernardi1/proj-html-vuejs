@@ -47,7 +47,7 @@ export default {
 
 <style lang="scss" scoped>
 .col-right {
-  max-width: 21.875rem;
+  max-width: 21.25rem;
   .info {
     color: #05848a;
 
