@@ -3,16 +3,20 @@
     <div
       class="number fs-4 fw-bold rounded-circle m-auto d-flex justify-content-center align-items-center"
     >
-      01
+      0{{ stepNum }}
     </div>
-    <h4 class="fw-bold my-3">Collection of information</h4>
-    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <h4 class="fw-bold my-3">{{ info.title }}</h4>
+    <p>{{ info.text }}</p>
   </div>
 </template>
 
 <script>
 export default {
   name: "ProcessStep",
+  props: {
+    info: Object,
+    stepNum: Number,
+  },
 };
 </script>
 

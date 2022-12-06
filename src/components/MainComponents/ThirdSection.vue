@@ -7,7 +7,7 @@
       process is done from start to finish as planned.
     </p>
     <div class="process mt-5 d-flex justify-content-around">
-      <ProcessStep v-for="n in 5" />
+      <ProcessStep v-for="(step, i) in steps" :info="step" :stepNum="i + 1" />
     </div>
   </section>
 </template>
@@ -18,6 +18,32 @@ export default {
   name: "ThirdSection",
   components: {
     ProcessStep,
+  },
+  data() {
+    return {
+      steps: [
+        {
+          title: "Collection of Inforamation",
+          text: "Lorem ipsum dolor sit amet consectetur.",
+        },
+        {
+          title: "Service Invoice Sending",
+          text: "Lorem ipsum dolor sit amet consectetur.",
+        },
+        {
+          title: "Withdraw of Cargo",
+          text: "Lorem ipsum dolor sit amet consectetur.",
+        },
+        {
+          title: "Transport Customer Order",
+          text: "Lorem ipsum dolor sit amet consectetur.",
+        },
+        {
+          title: "Successful Delivery",
+          text: "Lorem ipsum dolor sit amet consectetur.",
+        },
+      ],
+    };
   },
 };
 </script>
