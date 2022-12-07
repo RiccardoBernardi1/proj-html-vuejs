@@ -25,7 +25,7 @@ export default {
         },
         {
           linkText: "ABOUT",
-          linkHref: "#transport",
+          linkHref: "#footer",
           class: "fw-normal me-5 ",
         },
         {
@@ -67,7 +67,7 @@ a {
     order: 3;
     background-color: #058283;
     border: 0.125rem solid #058283;
-    padding: 0.625rem 1.5625rem 0.9375rem;
+    padding: 0.9375rem 1.5625rem 0.9375rem;
     &:hover {
       box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
         0 10px 10px rgba(0, 0, 0, 0.22);

@@ -25,7 +25,7 @@ export default {
 .header-bottom-image {
   background-image: url("../../assets/bg-9.jpg");
   .header-bottom-color {
-    background-color: rgba($color: #000000, $alpha: 0.7);
+    background-color: rgba($color: #000000, $alpha: 0.8);
   }
 }
 </style>

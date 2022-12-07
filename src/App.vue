@@ -2,12 +2,13 @@
 import AppHeader from "./components/AppHeader.vue";
 import AppMain from "./components/AppMain.vue";
 import AppFooter from "./components/AppFooter.vue";
-
+import MessageAnswer from "./components/MessageAnswer.vue";
 export default {
   components: {
     AppHeader,
     AppMain,
     AppFooter,
+    MessageAnswer,
   },
 };
 </script>
@@ -16,6 +17,7 @@ export default {
   <AppHeader />
   <AppMain />
   <AppFooter />
+  <MessageAnswer />
 </template>
 
 <style lang="scss">

@@ -39,11 +39,11 @@ export default {
     &.btn {
       background-color: #058283;
       border: 0.125rem solid #058283;
-      padding: 0.625rem 1.5625rem 0.9375rem;
+      padding: 0.9375rem 1.5625rem;
     }
     &.read-more {
       border: 0.125rem solid #058283;
-      padding: 0.625rem 1.5625rem 0.9375rem;
+      padding: 1.0625rem 1.5625rem 1.1875rem;
     }
   }
 }
