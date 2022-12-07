@@ -52,10 +52,14 @@ export default {
 section {
   padding: 8.125rem 9.375rem;
   overflow: hidden;
+  background-color: #eef4ed;
   h2 span {
     color: #058283;
     padding: 0.5rem 1rem;
     background-color: #daeced;
+  }
+  h2 {
+    font-size: 3.125rem;
   }
   p {
     max-width: 47.8125rem;

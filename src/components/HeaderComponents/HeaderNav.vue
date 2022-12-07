@@ -7,7 +7,7 @@
       <a v-for="obj in links" :href="obj.linkHref" :class="obj.class">{{
         obj.linkText
       }}</a>
-      <a href="#" class="me-5 fw-bold" v-html="userIcon"></a>
+      <a href="#" class="me-5 fw-bold fs-5" v-html="userIcon"></a>
     </nav>
   </div>
 </template>
@@ -21,32 +21,32 @@ export default {
         {
           linkText: "HOME",
           linkHref: "#header",
-          class: "me-5 fw-bold",
+          class: "fw-normal me-5 ",
         },
         {
           linkText: "ABOUT",
           linkHref: "#transport",
-          class: "me-5 fw-bold",
+          class: "fw-normal me-5 ",
         },
         {
           linkText: "SERVICES",
           linkHref: "#services",
-          class: "me-5 fw-bold",
+          class: "fw-normal me-5 ",
         },
         {
           linkText: "PROCESS",
           linkHref: "#process",
-          class: "me-5 fw-bold",
+          class: "fw-normal me-5 ",
         },
         {
           linkText: "TESTIMONIALS",
           linkHref: "#feedbacks",
-          class: "me-5 fw-bold",
+          class: "fw-normal me-5 ",
         },
         {
           linkText: "GET IN TOUCH",
           linkHref: "#get-in-touch",
-          class: "btn rounded fw-bold",
+          class: "fw-normal btn rounded ",
         },
       ],
       userIcon: `<i class="fa-regular fa-user"></i>`,

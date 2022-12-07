@@ -26,17 +26,17 @@ export default {
         {
           icon: `<i class="fa-solid fa-truck-ramp-box"></i>`,
           title: "Tecnology",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque numquamdolores quod, quae optio libero delectus error dolorum, molestias nisi hicquos quibusdam eaque fugiat",
+          text: "We are continually focused on developing tecnology solutions adapted to our client needs.",
         },
         {
           icon: `<i class="fa-solid fa-temperature-empty"></i>`,
           title: "Reefer Cargo",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque numquamdolores quod, quae optio libero delectus error dolorum, molestias nisi hicquos quibusdam eaque fugiat",
+          text: "Regular and frequent monitoring from the receipt of the loaded container to final destination.",
         },
         {
           icon: `<i class="fa-solid fa-boxes-stacked"></i>`,
           title: "Dry Cargo",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque numquamdolores quod, quae optio libero delectus error dolorum, molestias nisi hicquos quibusdam eaque fugiat",
+          text: "We work for most types of dry cargo, from valuable cargo to most dangerous requiring care.",
         },
       ],
     };

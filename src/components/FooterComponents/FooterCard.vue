@@ -1,6 +1,6 @@
 <template>
   <div class="col-equal p-5 rounded-3">
-    <h4 class="fw-bold mb-3">{{ info.title }}</h4>
+    <h4 class="mb-3">{{ info.title }}</h4>
     <ul>
       <li v-for="(li, i) in info.list" @click="clickLi(info.title, i)">
         <i
@@ -66,6 +66,7 @@ export default {
 .col-equal {
   background-color: #19191f;
   max-width: 15.625rem;
+
   ul {
     list-style: none;
     padding-left: 0;

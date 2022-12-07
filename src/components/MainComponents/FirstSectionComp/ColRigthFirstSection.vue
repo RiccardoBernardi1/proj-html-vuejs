@@ -1,18 +1,18 @@
 <template>
   <div class="col-right">
-    <h4 class="fw-bold mb-5">Vehicle Types</h4>
+    <h4 class="mb-5">Vehicle Types</h4>
     <div class="vehicle-types">
       <div class="d-flex truck align-items-center py-3" v-for="truck in trucks">
         <div class="truck-img">
           <img :src="truck.img" alt="Truck image" />
         </div>
         <div class="truck-text ms-3">
-          <h5 class="fw-bold fs-4">{{ truck.name }}</h5>
+          <h5 class="fs-4">{{ truck.name }}</h5>
           <span>{{ truck.weight }}</span>
         </div>
       </div>
     </div>
-    <h4 class="fw-bold my-4">Certifications</h4>
+    <h4 class="my-4">Certifications</h4>
     <div class="certifications">
       <img
         class="certificates"

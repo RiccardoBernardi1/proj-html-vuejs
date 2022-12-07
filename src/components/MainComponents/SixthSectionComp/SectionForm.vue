@@ -32,7 +32,7 @@
       required
       v-model="messageText"
     ></textarea>
-    <button class="fw-bold px-3 py-1 rounded" @click="getNewMessage()">
+    <button class="fw-normal px-3 py-1 rounded" @click="getNewMessage()">
       SEND
     </button>
   </form>

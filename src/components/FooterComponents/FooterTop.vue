@@ -7,7 +7,9 @@
         <div class="mb-3 info" v-for="obj in info">
           <span v-html="obj.icon" class="me-2"></span> {{ obj.text }}
         </div>
-        <a href="#get-in-touch" class="fw-bold read-more px-3 py-2 rounded mt-4"
+        <a
+          href="#get-in-touch"
+          class="fw-normal read-more px-3 py-2 rounded mt-4"
           >GET IN TOUCH</a
         >
       </div>
@@ -39,7 +41,7 @@ export default {
                 "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
             },
             {
-              title: "Socuial & Events",
+              title: "Social & Events",
               onClickText:
                 "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis porro aliquam itaque velit magnam.",
             },
@@ -159,7 +161,8 @@ export default {
 .footer-top {
   background-color: #111117;
   padding: 8.125rem 0 9.375rem;
-  color: white;
+  color: #c0c3d0;
+
   .col-different {
     width: 15rem;
     img {

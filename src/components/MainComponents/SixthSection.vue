@@ -50,6 +50,9 @@ section {
   padding: 8.125rem 9.375rem;
   .col-left {
     max-width: 45rem;
+    h2 {
+      font-size: 3.125rem;
+    }
     h2 span {
       color: #058283;
       padding: 0.5rem 1rem;

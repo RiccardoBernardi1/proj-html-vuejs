@@ -7,7 +7,7 @@
       ></div>
       <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
     </div>
-    <h4 class="mb-3">{{ info.title }}</h4>
+    <h4 class="mb-3 fw-bold">{{ info.title }}</h4>
     <p>{{ info.text }}</p>
   </div>
   <div class="feedbacks-card p-5 rounded-3" v-else-if="section === 'feedbacks'">
@@ -43,6 +43,9 @@ export default {
     }
     a {
       color: #0f4e51;
+    }
+    p {
+      color: #b6c3d0;
     }
   }
 }

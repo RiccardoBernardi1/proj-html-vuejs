@@ -33,4 +33,8 @@ h6 {
 h2 span {
   background-color: rgba($color: #0e272d, $alpha: 0.8);
 }
+h2 {
+  font-size: 3.125rem;
+  font-weight: bolder;
+}
 </style>

@@ -1,11 +1,11 @@
 <template>
   <div class="process-step text-center">
     <div
-      class="number fs-4 fw-bold rounded-circle m-auto d-flex justify-content-center align-items-center"
+      class="number fs-5 fw-normal rounded-circle m-auto d-flex justify-content-center align-items-center"
     >
-      0{{ stepNum }}
+      <span>0{{ stepNum }}</span>
     </div>
-    <h4 class="fw-bold my-3">{{ info.title }}</h4>
+    <h4 class="my-3">{{ info.title }}</h4>
     <p>{{ info.text }}</p>
   </div>
 </template>
@@ -29,6 +29,10 @@ export default {
     color: #05848a;
     background-color: #daeced;
     position: relative;
+    span {
+      position: absolute;
+      z-index: 10;
+    }
     &::after,
     &::before {
       content: "";
@@ -37,7 +41,7 @@ export default {
       background-color: #daeced;
       display: block;
       position: absolute;
-      z-index: -1;
+      z-index: 0;
     }
   }
 }

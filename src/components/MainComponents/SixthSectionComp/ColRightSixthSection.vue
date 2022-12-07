@@ -1,6 +1,6 @@
 <template>
   <div class="col-right ms-3">
-    <h4 class="fw-bold mb-4">Example inc.</h4>
+    <h4 class="mb-4">Example inc.</h4>
     <p class="mb-4">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
     </p>
@@ -16,14 +16,14 @@
     </div>
     <a
       href="#"
-      class="fw-bold read-more px-3 py-2 rounded"
+      class="fw-normal read-more px-3 py-2 rounded"
       @click.prevent="$emit('show'), (clicked = !clicked)"
       v-if="clicked === false"
       >VIEW MAP</a
     >
     <a
       href="#"
-      class="fw-bold read-more px-3 py-2 rounded"
+      class="fw-normal read-more px-3 py-2 rounded"
       @click.prevent="$emit('show'), (clicked = !clicked)"
       v-else
       >HIDE MAP</a
