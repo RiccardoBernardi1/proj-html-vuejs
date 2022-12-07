@@ -1,8 +1,10 @@
 <template>
+  <!-- componente risultato -->
   <div class="result-card text-center">
     <div class="num fs-2 fw-bold mb-3">{{ info.quantity }}</div>
     <h4 class="fw-bold">{{ info.type }}</h4>
   </div>
+  <!-- /componente risultato -->
 </template>
 
 <script>

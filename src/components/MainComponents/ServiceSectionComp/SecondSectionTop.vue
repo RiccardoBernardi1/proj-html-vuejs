@@ -1,11 +1,15 @@
 <template>
+  <!-- parte superiore sezione -->
   <div class="second-section-top container">
+    <!-- titolo sezione -->
     <WhiteTitle
       h6Text="ROAD TRANSPORT"
       backgroundText="Services"
       normalText="Main"
       backgroundFirst="false"
     />
+    <!-- /titolo sezione -->
+    <!-- paragrafo e bottone -->
     <div class="d-flex justify-content-between align-items-center">
       <p>
         With all of this expertise and capabilities comes an unrivalled
@@ -16,7 +20,9 @@
         >SEE ALL</a
       >
     </div>
+    <!-- /paragrafo e bottone -->
   </div>
+  <!-- /parte superiore sezione -->
 </template>
 
 <script>

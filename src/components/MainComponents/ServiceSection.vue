@@ -1,19 +1,21 @@
 <template>
   <section id="services">
     <SecondSectionTop />
-    <div class="section-cards d-flex justify-content-between container mt-5">
+    <!-- cards servizi -->
+    <div class="d-flex justify-content-between container mt-5">
       <SectionCard
         v-for="service in services"
         :info="service"
         section="services"
       />
     </div>
+    <!-- /cards servizi -->
   </section>
 </template>
 
 <script>
-import SecondSectionTop from "./SecondSectionComp/SecondSectionTop.vue";
-import SectionCard from "../MainComponents/SectionCard.vue";
+import SecondSectionTop from "./ServiceSectionComp/SecondSectionTop.vue";
+import SectionCard from "./SectionCard.vue";
 export default {
   name: "SecondSection",
   components: {

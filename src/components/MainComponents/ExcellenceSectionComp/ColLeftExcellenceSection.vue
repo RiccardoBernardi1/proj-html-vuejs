@@ -1,4 +1,5 @@
 <template>
+  <!-- colonna sinistra con titolo, paragrafi e lista -->
   <div class="col-left">
     <h6 class="fw-bold">WHO WE ARE</h6>
     <h2 class="fw-bold">
@@ -28,6 +29,7 @@
       <li v-for="lorem in loremList">{{ lorem }}</li>
     </ul>
   </div>
+  <!-- /colonna sinistra con titolo, paragrafi e lista -->
 </template>
 
 <script>

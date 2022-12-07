@@ -1,5 +1,7 @@
 <template>
+  <!-- parte superiore header -->
   <div class="header-top py-3">
+    <!-- orario , numero di telefono , mail e social -->
     <div class="container d-flex align-items-center">
       <div v-for="obj in store.info" class="info">
         <span v-html="obj.icon" class="me-2"></span> {{ obj.text }}
@@ -11,7 +13,9 @@
         class="info"
       ></a>
     </div>
+    <!-- /orario , numero di telefono , mail e social -->
   </div>
+  <!-- /parte superiore header -->
 </template>
 
 <script>

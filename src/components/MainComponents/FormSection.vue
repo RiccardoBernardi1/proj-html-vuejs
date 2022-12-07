@@ -24,8 +24,8 @@
 </template>
 
 <script>
-import SectionForm from "./SixthSectionComp/SectionForm.vue";
-import ColRightSixthSection from "./SixthSectionComp/ColRightSixthSection.vue";
+import SectionForm from "./FormSectionComp/SectionForm.vue";
+import ColRightSixthSection from "./FormSectionComp/ColRightSixthSection.vue";
 export default {
   name: "SixthSection",
   components: {

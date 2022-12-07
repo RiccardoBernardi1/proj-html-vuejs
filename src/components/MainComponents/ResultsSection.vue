@@ -1,22 +1,26 @@
 <template>
   <section>
     <div class="container text-center">
+      <!-- titolo -->
       <WhiteTitle
         h6Text="WHAT ARE WE DOING"
         backgroundText="Results"
         normalText="in Numbers"
         backgroundFirst="first"
       />
+      <!-- /titolo -->
+      <!-- risultati -->
       <div class="results d-flex">
         <ResultCard v-for="result in results" :info="result" />
       </div>
+      <!-- /risultati -->
     </div>
   </section>
 </template>
 
 <script>
 import WhiteTitle from "../WhiteTitle.vue";
-import ResultCard from "./FourthSectionComp/ResultCard.vue";
+import ResultCard from "./ResultsSectionComp/ResultCard.vue";
 export default {
   name: "FourthSection",
   components: {

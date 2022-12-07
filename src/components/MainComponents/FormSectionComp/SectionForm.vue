@@ -1,9 +1,11 @@
 <template>
+  <!-- form messaggio -->
   <form
     action=""
     @submit.prevent="getNewMessage()"
     class="row g-3 justify-content-between"
   >
+    <!-- input nome, mail e telefono -->
     <input type="text" placeholder="Name" required v-model="name" />
     <input
       type="email"
@@ -21,11 +23,15 @@
       required
       v-model="phone"
     />
+    <!-- /input nome, mail e telefono -->
+    <!-- selezione tipo di messaggio -->
     <select name="message-type" id="message-type" v-model="messageType">
       <option value="more" selected>More info</option>
       <option value="report">Report an issue</option>
       <option value="help">Ask for help</option>
     </select>
+    <!-- /selezione tipo di messaggio -->
+    <!-- input messaggio  e bottone-->
     <textarea
       name="Message-text"
       id="Message-text"
@@ -37,7 +43,9 @@
       v-model="messageText"
     ></textarea>
     <button class="fw-normal px-3 py-1 rounded">SEND</button>
+    <!-- /input messaggio  e bottone-->
   </form>
+  <!-- /form messaggio -->
 </template>
 
 <script>

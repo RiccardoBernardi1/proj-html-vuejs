@@ -1,4 +1,5 @@
 <template>
+  <!-- logo e navigazione header -->
   <div
     class="header-nav d-flex justify-content-between align-items-center py-3"
   >
@@ -10,6 +11,7 @@
       <a href="#" class="me-5 fw-bold fs-5" v-html="userIcon"></a>
     </nav>
   </div>
+  <!-- /logo e navigazione header -->
 </template>
 
 <script>

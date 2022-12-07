@@ -1,4 +1,5 @@
 <template>
+  <!-- parte inferiore header -->
   <div class="header-bottom-image">
     <div class="header-bottom-color">
       <div class="container">
@@ -7,6 +8,7 @@
       </div>
     </div>
   </div>
+  <!-- /parte inferiore header -->
 </template>
 
 <script>

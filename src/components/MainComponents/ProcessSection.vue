@@ -1,19 +1,23 @@
 <template>
   <section class="text-center" id="process">
+    <!-- titolo e paragrafo -->
     <h6 class="fw-bold">HOW IT WORKS IN PRACTICE</h6>
     <h2 class="fw-bold mb-4"><span>Logistical</span> Procedure</h2>
     <p>
       We work for innovative methodologies to ensure that the entire delivery
       process is done from start to finish as planned.
     </p>
+    <!-- /titolo e paragrafo -->
+    <!-- steps processo -->
     <div class="process mt-5 d-flex justify-content-around">
       <ProcessStep v-for="(step, i) in steps" :info="step" :stepNum="i + 1" />
     </div>
+    <!-- /steps processo -->
   </section>
 </template>
 
 <script>
-import ProcessStep from "./ThirdSectionComp/ProcessStep.vue";
+import ProcessStep from "./ProcessSectionComp/ProcessStep.vue";
 export default {
   name: "ThirdSection",
   components: {

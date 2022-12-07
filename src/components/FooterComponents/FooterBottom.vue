@@ -1,4 +1,5 @@
 <template>
+  <!-- parte inferiore footer -->
   <div class="footer-bottom p-3 text-end d-flex align-items-center">
     <div class="container d-flex justify-content-between">
       <span>Enjoy the low price. We are tracking any intention of piracy.</span>
@@ -11,6 +12,7 @@
       <i class="fa-solid fa-arrow-up"></i>
     </a>
   </div>
+  <!-- /parte inferiore footer -->
 </template>
 
 <script>

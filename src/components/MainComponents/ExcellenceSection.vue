@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import ColLeftFirstSection from "./FirstSectionComp/ColLeftFirstSection.vue";
-import ColRightFirstSection from "./FirstSectionComp/ColRigthFirstSection.vue";
+import ColLeftFirstSection from "./ExcellenceSectionComp/ColLeftExcellenceSection.vue";
+import ColRightFirstSection from "./ExcellenceSectionComp/ColRigthExcellenceSection.vue";
 export default {
   name: "FirstSection",
   components: {

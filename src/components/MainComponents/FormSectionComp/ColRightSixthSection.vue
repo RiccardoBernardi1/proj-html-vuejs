@@ -1,5 +1,7 @@
 <template>
+  <!-- colonna destra sezione -->
   <div class="col-right ms-3">
+    <!-- titolo e paragrafi -->
     <h4 class="mb-4">Example inc.</h4>
     <p class="mb-4">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -7,6 +9,8 @@
     <p class="mb-4">
       Error ipsa molestiae vero delectus corporis doloribus officiis
     </p>
+    <!-- /titolo e paragrafi -->
+    <!-- contatti e indirizzo -->
     <div class="d-flex align-items-center info" v-for="obj in info">
       <div
         class="circle fs-5 fw-bold rounded-circle d-flex justify-content-center align-items-center me-3"
@@ -14,6 +18,8 @@
       ></div>
       <span>{{ obj.text }}</span>
     </div>
+    <!-- /contatti e indirizzo -->
+    <!-- bottone maps -->
     <a
       href="#"
       class="fw-normal read-more px-3 py-2 rounded"
@@ -28,7 +34,9 @@
       v-else
       >HIDE MAP</a
     >
+    <!-- /bottone maps -->
   </div>
+  <!-- colonna destra sezione -->
 </template>
 
 <script>

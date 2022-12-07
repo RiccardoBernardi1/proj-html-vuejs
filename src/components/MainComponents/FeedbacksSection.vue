@@ -1,6 +1,7 @@
 <template>
   <section id="feedbacks">
     <div class="container">
+      <!-- titolo e paragrafo-->
       <WhiteTitle
         h6Text="CUSTOMER TESTIMONIALS"
         backgroundText="Feedback"
@@ -13,6 +14,8 @@
         our costumers. This is what moves us and we are grateful for the
         recognition.
       </p>
+      <!-- /titolo e paragrafo-->
+      <!-- cards -->
       <div class="feedbacks d-flex justify-content-between">
         <SectionCard
           v-for="feedback in feedbacks"
@@ -20,6 +23,7 @@
           section="feedbacks"
         />
       </div>
+      <!-- /cards -->
     </div>
   </section>
 </template>

@@ -1,4 +1,5 @@
 <template>
+  <!-- step process -->
   <div class="process-step text-center">
     <div
       class="number fs-5 fw-normal rounded-circle m-auto d-flex justify-content-center align-items-center"
@@ -8,6 +9,7 @@
     <h4 class="my-3">{{ info.title }}</h4>
     <p>{{ info.text }}</p>
   </div>
+  <!-- /step process -->
 </template>
 
 <script>

@@ -1,4 +1,5 @@
 <template>
+  <!-- card con accordion -->
   <div class="col-equal p-5 rounded-3">
     <h4 class="mb-3">{{ info.title }}</h4>
     <ul>
@@ -14,6 +15,7 @@
       </li>
     </ul>
   </div>
+  <!-- /card con accordion -->
 </template>
 
 <script>

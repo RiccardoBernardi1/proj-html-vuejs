@@ -1,4 +1,5 @@
 <template>
+  <!-- titolo , paragrafo e bottoni -->
   <div class="bottom-cargo">
     <h4>LOGISTIC SERVICES</h4>
     <h1 class="mb-4">CARGO TRANSPORT</h1>
@@ -9,6 +10,7 @@
     <a href="#get-in-touch" class="btn me-4 rounded">GET IN TOUCH</a>
     <a href="#transport" class="read-more rounded">READ MORE</a>
   </div>
+  <!-- /titolo , paragrafo e bottoni -->
 </template>
 
 <script>

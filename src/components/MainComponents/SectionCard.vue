@@ -1,4 +1,5 @@
 <template>
+  <!-- card sezione servizi -->
   <div class="services-card p-5 rounded-3" v-if="section === 'services'">
     <div class="d-flex justify-content-between mb-3">
       <div
@@ -10,12 +11,15 @@
     <h4 class="mb-3 fw-bold">{{ info.title }}</h4>
     <p>{{ info.text }}</p>
   </div>
+  <!-- /card sezione servizi -->
+  <!-- card sezione feedbacks -->
   <div class="feedbacks-card p-5 rounded-3" v-else-if="section === 'feedbacks'">
     <img :src="info.logo" alt="logo" class="mb-3" />
     <p class="mb-3">{{ info.firstText }}</p>
     <p>{{ info.secondText }}</p>
     <i class="fa-solid fa-quote-right fs-3"></i>
   </div>
+  <!-- /card sezione feedbacks -->
 </template>
 
 <script>

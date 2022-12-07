@@ -1,6 +1,8 @@
 <template>
+  <!-- parte superiore footer -->
   <div class="footer-top">
     <div class="container d-flex justify-content-between align-items-start">
+      <!-- prima colonna -->
       <div class="col-different">
         <img src="../../assets/logo.svg" alt="Logo NexGen" />
         <p class="mt-4">A Functional HTML template for Corporate & Business.</p>
@@ -13,9 +15,13 @@
           >GET IN TOUCH</a
         >
       </div>
+      <!-- /prima colonna -->
+      <!-- cards con acordion -->
       <FooterCard :info="obj" v-for="obj in cardsInfo" />
+      <!-- /cards con acordion -->
     </div>
   </div>
+  <!-- /parte superiore footer -->
 </template>
 
 <script>

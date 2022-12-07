@@ -1,4 +1,5 @@
 <template>
+  <!-- colonna destra contenente immagini e descrizioni mezzi di trasporto -->
   <div class="col-right">
     <h4 class="mb-5">Vehicle Types</h4>
     <div class="vehicle-types">
@@ -22,6 +23,7 @@
       />
     </div>
   </div>
+  <!-- /colonna destra contenente immagini e descrizioni mezzi di trasporto -->
 </template>
 
 <script>
