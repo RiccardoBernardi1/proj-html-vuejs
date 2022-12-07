@@ -1,6 +1,6 @@
 <template>
   <div class="footer-top">
-    <div class="container d-flex justify-content-between">
+    <div class="container d-flex justify-content-between align-items-start">
       <div class="col-different">
         <img src="../../assets/logo.svg" alt="Logo NexGen" />
         <p class="mt-4">A Functional HTML template for Corporate & Business.</p>

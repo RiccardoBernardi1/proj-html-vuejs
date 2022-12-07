@@ -68,6 +68,10 @@ a {
     background-color: #058283;
     border: 0.125rem solid #058283;
     padding: 0.625rem 1.5625rem 0.9375rem;
+    &:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+    }
   }
   &:hover {
     color: white;

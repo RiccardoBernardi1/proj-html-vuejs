@@ -65,7 +65,7 @@ export default {
 <style lang="scss" scoped>
 .col-equal {
   background-color: #19191f;
-  max-width: 15.625rem;
+  width: 16.25rem;
 
   ul {
     list-style: none;

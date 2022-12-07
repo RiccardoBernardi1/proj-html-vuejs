@@ -71,6 +71,15 @@ export default {
     }
   }
 }
+.certificates {
+  &:not(:last-child) {
+    margin-right: 1.25rem;
+    box-shadow: 0.0313rem 0.0313rem 0.0625rem black;
+  }
+  &:last-child {
+    box-shadow: -0.0313rem 0.0313rem 0.0625rem black;
+  }
+}
 .certifications img {
   max-width: 8.75rem;
 }
